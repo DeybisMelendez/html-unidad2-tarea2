@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.flex {
+	display: flex;
+}
+
+.menu {
+	list-style: none;
+	display: none;
+	flex-direction: column;
+}
+.menu-item {
+	background-color: blueviolet;
+	color: white;
+	display: block;
+	text-decoration: none;
+	padding: 12px;
+}
+.menu-item:hover {
+	background-color: violet;
+}
+.hamburger {
+	color: blueviolet;
+}
+
+.msj {
+	display: none;
+	flex-direction: column;
+	align-items: flex-end;
+	background-color: violet;
+	padding: 12px;
+	border-radius: 6px;
+	margin: 12px;
+}
+#saludar {
+	background-color: blueviolet;
+	color: white;
+	padding: 20px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+#saludar:hover {
+	background-color: violet;
+}
+#seccion-formulario {
+	display: none;
+}
+
+.contenido {
+	display: flex;
+	flex-direction: column;
+	padding: 200px;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-grow: 1;
+}
+
+input {
+	width: 100%;
+}
+.form-item {
+	padding: 8px;
+}
+th,
+td {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+}

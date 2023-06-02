@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Unidad 2</title>
+		<link rel="stylesheet" href="/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+	</head>
+	<body>
+		<div class="flex">
+			<nav>
+				<a href="#" class="hamburger">
+					<i class="material-icons" style="font-size: 36px">menu</i>
+				</a>
+				<ul class="menu">
+					<li>
+						<a href="#" class="menu-item" id="inicio">Inicio</a>
+					</li>
+					<li>
+						<a href="#" class="menu-item" id="form">Formulario</a>
+					</li>
+				</ul>
+			</nav>
+			<section id="seccion-inicio" class="contenido">
+				<div class="msj">
+					<a href="#" id="cerrar-saludar">
+						<i class="material-icons">close</i>
+					</a>
+					<p>Bienvenido al sitio web</p>
+				</div>
+				<a href="#" id="saludar">Saludar</a>
+			</section>
+			<section id="seccion-formulario" class="contenido">
+				<form action="" method="get">
+					<p class="form-item">
+						<label for="name">Nombre</label>
+						<input type="text" name="name" id="nombre" />
+					</p>
+					<p class="form-item">
+						<label for="lastname">Apellido</label>
+						<input type="text" name="lastname" id="apellido" />
+					</p>
+					<p class="form-item">
+						<label for="email">Correo</label>
+						<input type="email" name="email" id="correo" />
+					</p>
+				</form>
+				<p class="form-item">
+					<button id="guardar-datos">Guardar</button>
+				</p>
+				<div>
+					<table id="lista">
+						<tr>
+							<th>Nombre</th>
+							<th>Apellido</th>
+							<th>Correo</th>
+							<th>Eliminar</th>
+						</tr>
+					</table>
+				</div>
+			</section>
+		</div>
+
+		<script src="/index.js"></script>
+	</body>
+</html>
